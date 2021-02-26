@@ -1,5 +1,4 @@
 from tkinter import *
-from pytube import YouTube
 import pytube
 import os
 
@@ -28,12 +27,11 @@ link_enter = Entry(root, width=70, textvariable=link).place(x=32, y=90)
 def Downloader():
     if run:
         try:
-            url = YouTube(str(link.get()))
-            video = url.streams.first()
-            video.download(dir_path + '\Downloaded Videos')
+            pytube.YouTube(link.get()).streams.get_highest_resolution().download(dir_path + '\Downloaded Videos')
+            Label(root, text='DOWNLOADING..', font='arial 15').place(x=180, y=210)
             Label(root, text='DOWNLOADED', font='arial 15').place(x=180, y=210)
         except pytube.exceptions.RegexMatchError:
-            print('No video link pasted or invalid video link')
+            Label(root, text='No Video Link/ Invalid Video Link', font='arial 15', fg='red').place(x=100, y=220)
 
 
 Button(root, text='DOWNLOAD', font='arial 15 bold', bg='pale violet red', padx=2, command=Downloader).place(x=180,
