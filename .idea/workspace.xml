@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9dca0f4-77d9-4276-ad3b-47ad344e48af" name="Default Changelist" comment="build">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python build/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python build/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="c9dca0f4-77d9-4276-ad3b-47ad344e48af" name="Default Changelist" comment="build" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
