@@ -1,33 +1,30 @@
-# Simple Python Calculator 
+# Simple YouTube Downloader 
 
 ## What is this?
 
-This is a calculator made with the use of Python to do simple calculations
+This is a YouTube Downloader made with the use of Python to do download YouTube videos
 
-![calculator_image](https://user-images.githubusercontent.com/79618101/109247850-a6210d00-77b2-11eb-874a-0483c94e878e.JPG)
+![youtube_downloader_image](https://user-images.githubusercontent.com/79618101/109345847-c5fe1280-783e-11eb-856b-7b89e3eb0f60.JPG)
 
-This is one of my first few Python projects so I will add more functionalities to this calculator as time goes on
+This is one of my first few Python projects so I will add more functionalities to this donwloader as time goes on
 
 ## Functionalities
 
-* Simple Additions
-* Simple Subtractions
-* Simple Multiplications
-* Simple Divisions
+* Download YouTube videos
 
 ## How to use?
 
 ### Python Build
 
 1. Download this repository
-2. Install tkinter in your terminal with this command : `pip install tkinter` **or** `pip3 install tkinter`
+2. Install tkinter and Pytube in your terminal with this command : `pip install tkinter` **and** `pip3 install pytube`
 3. You can now run the **main.py** file
 
 ### Exe Build
 
 1. Download this repository
-2. Inside **python-calculator** navigate to the **exe build** directory
-3. Run the **calculator.exe** 
+2. Inside **youtube-downloader** navigate to the **exe build** directory
+3. Run the **youtube-downloader.exe** 
 
 ## Built With
 
@@ -40,5 +37,5 @@ This project is licensed under MIT License - see the [LICENSE.md](https://github
 
 ## Acknowledgments
 
-* This project was heavilty inspired by [codemy.com](https://www.youtube.com/channel/UCFB0dxMudkws1q8w5NJEAmw) YouTube channel
+* This project was heavilty inspired by [data-flair.training](https://data-flair.training/) blog
 
