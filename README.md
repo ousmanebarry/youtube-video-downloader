@@ -11,6 +11,7 @@ This is one of my first few Python projects so I will add more functionalities t
 ## Functionalities
 
 * Download YouTube videos
+* After download > opens the directory where the video has been downloaded
 
 ## How to use?
 
@@ -33,7 +34,7 @@ This is one of my first few Python projects so I will add more functionalities t
 
 ## License 
 
-This project is licensed under MIT License - see the [LICENSE.md](https://github.com/ousmanebarry/python-calculator/blob/main/LICENSE) file for details
+This project is licensed under MIT License - see the [LICENSE.md](https://github.com/ousmanebarry/youtube-downloader/blob/main/LICENSE) file for details
 
 ## Acknowledgments
 
