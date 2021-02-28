@@ -1,4 +1,5 @@
 from tkinter import *
+import subprocess
 import pytube
 import os
 
@@ -28,7 +29,7 @@ def Downloader():
     if run:
         try:
             pytube.YouTube(link.get()).streams.get_highest_resolution().download(dir_path + '\Downloaded Videos')
-            Label(root, text='DOWNLOADING..', font='arial 15').place(x=180, y=210)
+            subprocess.Popen(f'explorer "{dir_path} \Downloaded Videos"')
             Label(root, text='DOWNLOADED', font='arial 15').place(x=180, y=210)
         except pytube.exceptions.RegexMatchError:
             Label(root, text='No Video Link/ Invalid Video Link', font='arial 15', fg='red').place(x=100, y=220)
