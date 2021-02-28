@@ -11,7 +11,7 @@ This is one of my first few Python projects so I will add more functionalities t
 ## Functionalities
 
 * Download YouTube videos
-* After download > opens the directory where the video has been downloaded
+* Opens the directory where the video has been downloaded
 
 ## How to use?
 
