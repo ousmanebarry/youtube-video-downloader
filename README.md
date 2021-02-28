@@ -1,4 +1,4 @@
-# Simple YouTube Downloader 
+# Simple YouTube Video Downloader 
 
 ## What is this?
 
